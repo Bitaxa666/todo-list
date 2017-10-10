@@ -211,3 +211,48 @@ $ git push heroku master
 
 https://peaceful-mountain-13767.herokuapp.com/hello/heroku などにアクセスして確認。
 
+# Hiccup
+
+project.clj の dependencies に追加。
+
+```clojure
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                   [ring "1.6.2"]
+                   [compojure "1.6.0"]
+                   [hiccup "1.0.5"]]
+```
+
+handler 関数で使ってみる。
+
+リファレンスを見ると一通りありそう。
+http://weavejester.github.io/hiccup/index.html
+
+```clojure
+(ns todo-list.core
+  (:require [ring.adapter.jetty :as jetty]
+            [ring.middleware.reload :refer [wrap-reload]]
+            [compojure.core :refer [defroutes GET]]
+            [compojure.route :refer [not-found]]
+            [ring.handler.dump :refer [handle-dump]]
+            [hiccup.core :refer :all]
+            [hiccup.page :refer :all]))
+
+(defn welcome
+  "A ring handler to respond with a simple welcome message"
+  [request]
+  (html [:h1 "Hello, Clojure World"]
+        [:p "Welcome to your first Clojure app, I now update automatically"]))
+
+(defn goodbye
+  "A song to wish you goodbye"
+  [request]
+  (html5 {:lang "en"}
+         [:head (include-js "myscript.js") (include-css "mystyle.css")]
+         [:body
+          [:div [:h1 {:class "info"} "Walking back to happiness"]]
+          [:div [:p "Walking back to happiness with you"]]
+          [:div [:p "Said, Farewell to loneliness I knew"]]
+          [:div [:p "Laid aside foolish pride"]]
+          [:div [:p "Learnt the truth from tears I cried"]]]))
+```
+

@@ -3,27 +3,27 @@
             [ring.middleware.reload :refer [wrap-reload]]
             [compojure.core :refer [defroutes GET]]
             [compojure.route :refer [not-found]]
-            [ring.handler.dump :refer [handle-dump]]))
+            [ring.handler.dump :refer [handle-dump]]
+            [hiccup.core :refer :all]
+            [hiccup.page :refer :all]))
 
 (defn welcome
   "A ring handler to respond with a simple welcome message"
   [request]
-  {:status 200
-   :body "<h1>Hello, Clojure World</h1>
-     <p>Welcome to your first Clojure app, I now update automatically</p>
-     <p>I now use defroutes to manage incoming requests</p>"
-   :headers {}})
+  (html [:h1 "Hello, Clojure World"]
+        [:p "Welcome to your first Clojure app, I now update automatically"]))
 
 (defn goodbye
   "A song to wish you goodbye"
   [request]
-  {:status 200
-   :body "<h1>Walking back to happiness</h1>
-          <p>Walking back to happiness with you</p>
-          <p>Said, Farewell to loneliness I knew</p>
-          <p>Laid aside foolish pride</p>
-          <p>Learnt the truth from tears I cried</p>"
-   :headers {}})
+  (html5 {:lang "en"}
+         [:head (include-js "myscript.js") (include-css "mystyle.css")]
+         [:body
+          [:div [:h1 {:class "info"} "Walking back to happiness"]]
+          [:div [:p "Walking back to happiness with you"]]
+          [:div [:p "Said, Farewell to loneliness I knew"]]
+          [:div [:p "Laid aside foolish pride"]]
+          [:div [:p "Learnt the truth from tears I cried"]]]))
 
 (defn about
   "Information about the website developer"

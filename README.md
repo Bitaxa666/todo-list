@@ -318,5 +318,10 @@ todo_list/handlers/base.clj から直し始める。
  
  handlers/\*.clj → views/\*.clj という形にしていく。
  
+ # DBアクセス
  
+ migrate が REPL からできなかったので、/migrate で呼び出すようにしてみた。
  
+ Heroku でしかDBアクセスできてない。ローカルと切り替えられるようにもしてみたいところ。
+ できれば認証情報は外出ししたい。
+  

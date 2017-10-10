@@ -1,7 +1,16 @@
 (ns todo-list.core
   (:require [ring.adapter.jetty :as jetty]
             [ring.middleware.reload :refer [wrap-reload]]
-            [todo-list.handlers.base :refer [app]]))
+            [compojure.core :refer [routes]]
+            [todo-list.handlers.base :refer [base-routes]]
+            [todo-list.handlers.todo :refer [todo-routes]]
+            [todo-list.handlers.main :refer [main-routes]]))
+
+(def app
+  (routes
+   todo-routes
+   main-routes
+   base-routes))
 
 (defn -main
   "A very simple web server using Ring & Jetty"

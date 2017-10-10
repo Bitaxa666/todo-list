@@ -296,4 +296,19 @@ https://mvnrepository.com/artifact/org.postgresql/postgresql
                    [org.postgresql/postgresql "42.1.4"]]
 ```
 
+# TODOアプリの完成に向けて
 
+これまで見てきたチュートリアルでは完成に至っていなかったので、
+ayato-p さんのを参考に書き換えてみる。
+
+https://ayato-p.github.io/clojure-beginner/intro_web_development/index.html
+
+todo_list/handlers/base.clj から直し始める。
+
+* core.clj
+  * handlers/base.clj
+  * handlers/main.clj
+  * handlers/todo.clj
+
+と呼んでいく形にしてみた。
+ 

@@ -316,7 +316,7 @@ todo_list/handlers/base.clj から直し始める。
 
  Part4: テンプレートエンジンを使う より。
  
- handlers/*.clj → views/*.clj という形にしていく。
+ handlers/\*.clj → views/\*.clj という形にしていく。
  
  
  

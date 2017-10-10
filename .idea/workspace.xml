@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8ce526-fbe0-42b5-93d2-e5690913f522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/todo_list/db.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/todo_list/db/todo.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todo_list/handlers/main.clj" afterPath="$PROJECT_DIR$/src/todo_list/handlers/main.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todo_list/handlers/todo.clj" afterPath="$PROJECT_DIR$/src/todo_list/handlers/todo.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,44 +13,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="389">
-                <caret line="323" column="1" lean-forward="false" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
+              <first_editor relative-caret-position="355">
+                <caret line="325" column="17" lean-forward="true" selection-start-line="325" selection-start-column="17" selection-end-line="325" selection-end-column="17" />
                 <folding>
-                  <marker date="1507618638147" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-                  <marker date="1507618638147" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-                  <marker date="1507618638147" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-                  <marker date="1507618638147" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-                  <marker date="1507618638147" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-                  <marker date="1507618638147" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-                  <marker date="1507618638147" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-                  <marker date="1507618638147" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-                  <marker date="1507618638147" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-                  <marker date="1507618638147" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-                  <marker date="1507618638147" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-                  <marker date="1507618638147" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-                  <marker date="1507618638147" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-                  <marker date="1507618638147" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-                  <marker date="1507618638147" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-                  <marker date="1507618638147" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-                  <marker date="1507618638147" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-                  <marker date="1507618638147" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-                  <marker date="1507618638147" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-                  <marker date="1507618638147" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-                  <marker date="1507618638147" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-                  <marker date="1507618638147" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
-                  <marker date="1507618638147" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-                  <marker date="1507618638147" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-                  <marker date="1507618638147" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
-                  <marker date="1507618638147" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
-                  <marker date="1507618638147" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
-                  <marker date="1507618638147" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
-                  <marker date="1507618638147" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
-                  <marker date="1507618638147" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
-                  <marker date="1507618638147" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+                  <marker date="1507618711962" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+                  <marker date="1507618711962" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+                  <marker date="1507618711962" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+                  <marker date="1507618711962" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+                  <marker date="1507618711962" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+                  <marker date="1507618711962" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+                  <marker date="1507618711962" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+                  <marker date="1507618711962" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+                  <marker date="1507618711962" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+                  <marker date="1507618711962" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+                  <marker date="1507618711962" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+                  <marker date="1507618711962" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+                  <marker date="1507618711962" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+                  <marker date="1507618711962" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+                  <marker date="1507618711962" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+                  <marker date="1507618711962" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+                  <marker date="1507618711962" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+                  <marker date="1507618711962" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+                  <marker date="1507618711962" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+                  <marker date="1507618711962" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+                  <marker date="1507618711962" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+                  <marker date="1507618711962" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
+                  <marker date="1507618711962" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+                  <marker date="1507618711962" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+                  <marker date="1507618711962" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
+                  <marker date="1507618711962" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
+                  <marker date="1507618711962" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
+                  <marker date="1507618711962" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
+                  <marker date="1507618711962" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
+                  <marker date="1507618711962" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
+                  <marker date="1507618711962" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -107,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/todo_list/handlers/main.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="e#0#240#0" expanded="true" />
               </folding>
@@ -205,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/todo_list/db.clj" />
         <option value="$PROJECT_DIR$/src/todo_list/db/todo.clj" />
         <option value="$PROJECT_DIR$/src/todo_list/handlers/todo.clj" />
-        <option value="$PROJECT_DIR$/src/todo_list/handlers/main.clj" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/todo_list/handlers/main.clj" />
       </list>
     </option>
   </component>
@@ -486,12 +481,12 @@
       <workItem from="1507596665573" duration="1540000" />
       <workItem from="1507598228845" duration="3523000" />
       <workItem from="1507601787262" duration="12842000" />
-      <workItem from="1507618195165" duration="443000" />
+      <workItem from="1507618195165" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18348000" />
+    <option name="totallyTimeSpent" value="18518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="596" y="2" width="1233" height="875" extended-state="0" />
@@ -552,37 +547,37 @@
           <first_editor relative-caret-position="5270">
             <caret line="310" column="21" lean-forward="true" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
             <folding>
-              <marker date="1507618638147" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507618638147" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507618638147" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507618638147" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507618638147" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507618638147" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507618638147" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
-              <marker date="1507618638147" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
-              <marker date="1507618638147" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
-              <marker date="1507618638147" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507618711962" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507618711962" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507618711962" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507618711962" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507618711962" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507618711962" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
+              <marker date="1507618711962" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
+              <marker date="1507618711962" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
+              <marker date="1507618711962" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
             </folding>
           </first_editor>
           <second_editor />
@@ -674,37 +669,37 @@
           <first_editor relative-caret-position="2074">
             <caret line="122" column="41" lean-forward="false" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
             <folding>
-              <marker date="1507618638147" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507618638147" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507618638147" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507618638147" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507618638147" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507618638147" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507618638147" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
-              <marker date="1507618638147" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
-              <marker date="1507618638147" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
-              <marker date="1507618638147" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507618711962" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507618711962" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507618711962" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507618711962" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507618711962" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507618711962" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
+              <marker date="1507618711962" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
+              <marker date="1507618711962" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
+              <marker date="1507618711962" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
             </folding>
           </first_editor>
           <second_editor />
@@ -734,37 +729,37 @@
           <first_editor relative-caret-position="952">
             <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
             <folding>
-              <marker date="1507618638147" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507618638147" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507618638147" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507618638147" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507618638147" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507618638147" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507618638147" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
-              <marker date="1507618638147" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
-              <marker date="1507618638147" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
-              <marker date="1507618638147" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507618711962" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507618711962" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507618711962" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507618711962" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507618711962" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507618711962" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
+              <marker date="1507618711962" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
+              <marker date="1507618711962" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
+              <marker date="1507618711962" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
             </folding>
           </first_editor>
           <second_editor />
@@ -876,6 +871,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo_list/handlers/main.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/todo_list/db.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -985,43 +971,53 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="389">
-            <caret line="323" column="1" lean-forward="false" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
+          <first_editor relative-caret-position="355">
+            <caret line="325" column="17" lean-forward="true" selection-start-line="325" selection-start-column="17" selection-end-line="325" selection-end-column="17" />
             <folding>
-              <marker date="1507618638147" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507618638147" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507618638147" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507618638147" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507618638147" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507618638147" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507618638147" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507618638147" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507618638147" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-              <marker date="1507618638147" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
-              <marker date="1507618638147" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507618638147" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
-              <marker date="1507618638147" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507618638147" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507618638147" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
-              <marker date="1507618638147" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
-              <marker date="1507618638147" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
-              <marker date="1507618638147" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507618711962" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507618711962" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507618711962" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507618711962" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507618711962" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507618711962" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507618711962" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507618711962" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+              <marker date="1507618711962" expanded="true" signature="4727:5230" ph="(defproject user/todo-list)" />
+              <marker date="1507618711962" expanded="true" signature="4976:5080" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5634:5774" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507618711962" expanded="true" signature="5877:6228" ph="(ns todo-list.core)" />
+              <marker date="1507618711962" expanded="true" signature="5898:6227" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507618711962" expanded="true" signature="6230:6431" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507618711962" expanded="true" signature="6433:6897" ph="(defn todo-list.core/goodbye)" />
+              <marker date="1507618711962" expanded="true" signature="6492:6896" ph="(html5 {:lang &quot;en&quot;} [:head (in… )])" />
+              <marker date="1507618711962" expanded="true" signature="6593:6895" ph="[:body [:div [:h1 {:class &quot;inf…}…]]]" />
+              <marker date="1507618711962" expanded="true" signature="7779:8026" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo_list/handlers/main.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

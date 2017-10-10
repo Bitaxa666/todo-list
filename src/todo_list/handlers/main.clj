@@ -13,7 +13,7 @@
 (defn migrate [req]
   (db/migrate)
   (-> (view/home-view req)
-      res/reponse
+      res/response
       res/html))
 
 (defroutes main-routes

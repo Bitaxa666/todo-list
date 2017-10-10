@@ -260,3 +260,40 @@ http://weavejester.github.io/hiccup/index.html
 
 core.clj から handlers/base.clj を参照するようにしてみる。
 
+# PostgreSQL を使ってみる
+
+Heroku で作成する。Hobby Dev は無料。
+
+```
+$ heroku addons:create heroku-postgresql:hobby-dev
+Creating heroku-postgresql:hobby-dev on peaceful-mountain-13767... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-objective-16984 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+```
+
+heroku config するとDBアクセスの情報が得られる。
+
+```
+$ heroku config
+=== peaceful-mountain-13767 Config Vars
+DATABASE_URL: postgres://xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxx@ec2-50-19-113-nnn.compute-1.amazonaws.com:5432/xxxxxxxxxxxxx
+```
+
+## JDBC の設定をする
+
+project.clj に追加。JDBCドライバのバージョンはMavenリポジトリから調べる。
+https://mvnrepository.com/artifact/org.postgresql/postgresql
+
+```clojure
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                   [ring "1.6.2"]
+                   [compojure "1.6.0"]
+                   [hiccup "1.0.5"]
+                   [org.clojure/java.jdbc "0.7.3"]
+                   [org.postgresql/postgresql "42.1.4"]]
+```
+
+

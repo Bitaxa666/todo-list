@@ -311,4 +311,12 @@ todo_list/handlers/base.clj から直し始める。
   * handlers/todo.clj
 
 と呼んでいく形にしてみた。
+
+# レイアウトを適用する
+
+ Part4: テンプレートエンジンを使う より。
+ 
+ handlers/*.clj → views/*.clj という形にしていく。
+ 
+ 
  

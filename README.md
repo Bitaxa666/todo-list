@@ -112,3 +112,59 @@ wrap-reload Middleware の追加と、dev profile での dev-main を実装。
   (jetty/run-jetty (wrap-reload #'welcome)
                    {:port (Integer. port-number)}))
 ```
+
+# Compojure でルーティング
+
+dependencies に compojure を追加。
+
+```clojure
+(defproject
+  todo-list "0.1.0-SNAPSHOT"
+  :description "FIXME: write description"
+  :url "https://github.com/sugitk/todo-list"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                   [ring "1.6.2"]
+                   [compojure "1.6.0"]]
+  :main todo-list.core
+  :profiles {:dev
+              {:main todo-list.core/-dev-main}})
+```
+
+src/todo_list/core.clj で実装。
+
+```clojure
+(ns todo-list.core
+  (:require [ring.adapter.jetty :as jetty]
+            [ring.middleware.reload :refer [wrap-reload]]
+            [compojure.core :refer [defroutes GET]]
+            [compojure.route :refer [not-found]]
+            [ring.handler.dump :refer [handle-dump]]))
+```
+
+defroutes にルーティングを定義して、各関数を実装する。(実装は略)
+
+```clojure
+(defroutes app
+  (GET "/" [] welcome)
+  (GET "/goodbye" [] goodbye)
+  (GET "/about" [] about)
+  (GET "/request-info" [] handle-dump)
+  (GET "/hello/:name" [] hello)
+  (GET "/calculator/:op/:a/:b" [] calculator)
+  (not-found "<h1>This is not the page you are looking for</h1>
+              <p>Sorry, the page you requested was not found!</p>"))
+
+(defn -main
+  "A very simple web server using Ring & Jetty"
+  [port-number]
+  (jetty/run-jetty app
+                   {:port (Integer. port-number)}))
+
+(defn -dev-main
+  "A very simple web server using Ring & Jetty that reloads code changes via the development profile of Leiningen"
+  [port-number]
+  (jetty/run-jetty (wrap-reload #'app)
+                   {:port (Integer. port-number)}))
+```

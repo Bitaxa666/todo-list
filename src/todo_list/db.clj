@@ -12,4 +12,4 @@
 (defn migrate []
   (jdbc/db-do-commands
    db-spec
-   (jdbc/create-table-ddl :todo [:id :serial] [:title :varchar])))
+   (jdbc/create-table-ddl :todo [[:id :serial] [:title :varchar]])))

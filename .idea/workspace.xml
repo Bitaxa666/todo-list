@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8ce526-fbe0-42b5-93d2-e5690913f522" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todo_list/handlers/main.clj" afterPath="$PROJECT_DIR$/src/todo_list/handlers/main.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/todo_list/handlers/main.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -136,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/todo_list/db.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -481,12 +481,12 @@
       <workItem from="1507596665573" duration="1540000" />
       <workItem from="1507598228845" duration="3523000" />
       <workItem from="1507601787262" duration="12842000" />
-      <workItem from="1507618195165" duration="613000" />
+      <workItem from="1507618195165" duration="907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18518000" />
+    <option name="totallyTimeSpent" value="18812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="596" y="2" width="1233" height="875" extended-state="0" />
@@ -960,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo_list/db.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1018,6 +1010,14 @@
           <folding>
             <element signature="e#0#240#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo_list/db.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

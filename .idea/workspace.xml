@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8ce526-fbe0-42b5-93d2-e5690913f522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,34 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="122" column="41" lean-forward="false" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+              <first_editor relative-caret-position="341">
+                <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
                 <folding>
-                  <marker date="1507600454037" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-                  <marker date="1507600454037" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-                  <marker date="1507600454037" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-                  <marker date="1507600454037" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-                  <marker date="1507600454037" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-                  <marker date="1507600454037" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-                  <marker date="1507600454037" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-                  <marker date="1507600454037" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-                  <marker date="1507600454037" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-                  <marker date="1507600454037" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-                  <marker date="1507600454037" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-                  <marker date="1507600454037" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-                  <marker date="1507600454037" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-                  <marker date="1507600454037" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-                  <marker date="1507600454037" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-                  <marker date="1507600454037" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-                  <marker date="1507600454037" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-                  <marker date="1507600454037" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-                  <marker date="1507600454037" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-                  <marker date="1507600454037" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-                  <marker date="1507600454037" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+                  <marker date="1507602173535" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+                  <marker date="1507602173535" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+                  <marker date="1507602173535" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+                  <marker date="1507602173535" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+                  <marker date="1507602173535" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+                  <marker date="1507602173535" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+                  <marker date="1507602173535" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+                  <marker date="1507602173535" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+                  <marker date="1507602173535" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+                  <marker date="1507602173535" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+                  <marker date="1507602173535" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+                  <marker date="1507602173535" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+                  <marker date="1507602173535" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+                  <marker date="1507602173535" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+                  <marker date="1507602173535" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+                  <marker date="1507602173535" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+                  <marker date="1507602173535" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+                  <marker date="1507602173535" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+                  <marker date="1507602173535" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+                  <marker date="1507602173535" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+                  <marker date="1507602173535" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="74" lean-forward="true" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+              <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -98,9 +97,9 @@
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/todo_list/core.clj" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -191,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,9 +222,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,15 +340,17 @@
       <option name="presentableId" value="Default" />
       <updated>1507596664239</updated>
       <workItem from="1507596665573" duration="1540000" />
-      <workItem from="1507598228845" duration="2652000" />
+      <workItem from="1507598228845" duration="3523000" />
+      <workItem from="1507601787262" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4192000" />
+    <option name="totallyTimeSpent" value="5448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="652" y="10" width="1233" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -360,7 +361,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38039216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38039216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -390,33 +391,92 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2074">
+            <caret line="122" column="41" lean-forward="false" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+            <folding>
+              <marker date="1507602173535" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507602173535" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507602173535" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507602173535" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507602173535" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507602173535" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507602173535" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507602173535" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507602173535" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507602173535" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507602173535" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo_list/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="952">
             <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
             <folding>
-              <marker date="1507600454037" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507600454037" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507600454037" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507600454037" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507600454037" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507600454037" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507600454037" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507600454037" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507600454037" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507600454037" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507600454037" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507600454037" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507600454037" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507600454037" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507600454037" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507600454037" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507600454037" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+              <marker date="1507602173535" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507602173535" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507602173535" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507602173535" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507602173535" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507602173535" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507602173535" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507602173535" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507602173535" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507602173535" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507602173535" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
             </folding>
           </first_editor>
           <second_editor />
@@ -445,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,19 +535,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.hgignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.hgignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,39 +550,6 @@
           <folding>
             <element signature="e#0#275#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="122" column="41" lean-forward="false" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
-            <folding>
-              <marker date="1507600454037" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
-              <marker date="1507600454037" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
-              <marker date="1507600454037" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
-              <marker date="1507600454037" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507600454037" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
-              <marker date="1507600454037" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
-              <marker date="1507600454037" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
-              <marker date="1507600454037" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
-              <marker date="1507600454037" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
-              <marker date="1507600454037" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
-              <marker date="1507600454037" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
-              <marker date="1507600454037" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
-              <marker date="1507600454037" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
-              <marker date="1507600454037" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
-              <marker date="1507600454037" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
-              <marker date="1507600454037" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
-              <marker date="1507600454037" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
-              <marker date="1507600454037" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -546,8 +564,41 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="74" lean-forward="true" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="341">
+            <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+            <folding>
+              <marker date="1507602173535" expanded="true" signature="170:483" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="513:849" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="960:1310" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="1038:1309" ph="(jetty/run-jetty (fn [request] …}))" />
+              <marker date="1507602173535" expanded="true" signature="1058:1274" ph="(fn [request] {:status 200 :bo… })" />
+              <marker date="1507602173535" expanded="true" signature="1072:1273" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="1417:1820" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="1919:2040" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="2042:2531" ph="(defn todo-list.core/welcome)" />
+              <marker date="1507602173535" expanded="true" signature="2209:2530" ph="(if (= &quot;/&quot; (:uri request)) {:s… })" />
+              <marker date="1507602173535" expanded="true" signature="2240:2367" ph="{:status 200 :body &quot;&lt;h1&gt;Hello,… }" />
+              <marker date="1507602173535" expanded="true" signature="2372:2529" ph="{:status 404 :body &quot;&lt;h1&gt;This i… }" />
+              <marker date="1507602173535" expanded="true" signature="2533:2687" ph="(defn todo-list.core/-main)" />
+              <marker date="1507602173535" expanded="true" signature="2689:2930" ph="(defn todo-list.core/-dev-main)" />
+              <marker date="1507602173535" expanded="true" signature="2999:3442" ph="(defproject user/todo-list)" />
+              <marker date="1507602173535" expanded="true" signature="3248:3352" ph="[[org.clojure/clojure &quot;1.8.0&quot;] …]]" />
+              <marker date="1507602173535" expanded="true" signature="3488:3763" ph="(ns todo-list.core)" />
+              <marker date="1507602173535" expanded="true" signature="3509:3762" ph="(:require [ring.adapter.jetty …])" />
+              <marker date="1507602173535" expanded="true" signature="3820:4163" ph="(defroutes user/app)" />
+              <marker date="1507602173535" expanded="true" signature="4165:4315" ph="(defn user/-main)" />
+              <marker date="1507602173535" expanded="true" signature="4317:4554" ph="(defn user/-dev-main)" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

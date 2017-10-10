@@ -256,3 +256,7 @@ http://weavejester.github.io/hiccup/index.html
           [:div [:p "Learnt the truth from tears I cried"]]]))
 ```
 
+# ファイルを分ける
+
+core.clj から handlers/base.clj を参照するようにしてみる。
+
